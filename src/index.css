@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+
+.text-div {
+    background-color:hsl(217, 19%, 24%);
+    color: aliceblue;
+    font-size: 1.1rem;
+    height: 3.6rem;
+    padding-top: 0.8rem;
+}
+
+.search-btn {
+    background-color: rgb(26, 204, 204);
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
